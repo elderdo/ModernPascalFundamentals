@@ -1,6 +1,10 @@
 {
     "folders": [
         {
+            "name": "ROOT: Modern Pascal Series",
+            "path": "."
+        },
+        {
             "path": "Ch01_RepairJob"
         },
         {
