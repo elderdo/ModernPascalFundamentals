@@ -9,9 +9,6 @@
 program RepairJob;
 {$mode objfpc}{$H+}
 
-program RepairJob;
-{$mode objfpc}{$H+}
-
 uses
   Classes, SysUtils;
 

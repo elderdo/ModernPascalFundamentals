@@ -9,7 +9,7 @@
 			"command": "${config:fpctoolkit.env.LAZBUILD}",
 			"args": [
 				"--build-mode=Debug", // Compiles using the 'Debug' profile in your .lpi
-				"${fileDirname}/*.lpi" // Automatically finds the project file in the current folder
+				"${fileDirname}/${fileBasenameNoExtension}.lpi" // Automatically finds the project file in the current folder
 			],
 			"group": {
 				"kind": "build",
