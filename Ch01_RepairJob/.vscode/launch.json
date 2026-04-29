@@ -20,7 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Build Pascal"
+            "preLaunchTask": "Build with Lazbuild (Project)"
         }
     ]
 }
