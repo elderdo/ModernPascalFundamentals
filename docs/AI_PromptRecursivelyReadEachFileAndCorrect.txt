@@ -1,0 +1,5 @@
+Recursively read each file and correct 
+all md errors.  Re-read each md file and 
+check for md errors.  
+Once all md errors are gone 
+terminate this task.
