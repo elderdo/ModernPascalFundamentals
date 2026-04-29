@@ -1,7 +1,11 @@
 {
     "folders": [
-        { "path": "Ch01_RepairJob" }
+        {
+            "path": "Ch01_RepairJob"
+        },
+        {
+            "path": "docs"
+        }
     ],
     "settings": {}
 }
-
