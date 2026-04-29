@@ -1,0 +1,23 @@
+# --- Executables and Build Artifacts ---
+bin/
+lib/
+
+# --- Standard FPC/Lazarus temporary files (if they leak out of bin/lib) ---
+*.o
+*.ppu
+*.obj
+*.compiled
+*.res
+*.or
+
+# --- Lazarus Project files (optional - keep .lpr and .lfm) ---
+backup/
+*.bak
+*.lps
+*.identcache
+
+# --- VS Code specific ---
+.vscode/
+# Note: You might want to track tasks.json/launch.json 
+# if you want others to have your build settings. 
+# If so, comment out .vscode/ above.
