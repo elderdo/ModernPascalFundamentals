@@ -3,6 +3,7 @@
 This repository tracks my progress through the **"Modern Pascal"** book series by **Corin Hale**. It serves as a personal development log and educational resource for others interested in Free Pascal and Lazarus.
 
 ## 📚 Book Series
+
 1. **Modern Pascal Fundamentals** (Current)
 2. [Book 2 Title]
 3. [Book 3 Title]
@@ -26,3 +27,10 @@ This project is for educational and scholarship purposes only.
 - **Compiler:** Free Pascal 3.2.2
 - **IDE/Editor:** Lazarus 3.x / VS Code with FreePascal Toolkit
 - **Platform:** Windows/Linux/macOS
+- **VS Code Extensions:**
+  - Pascal Alessandro Fragnani
+  - Pascal Formatter
+  - Pascal Language Basics
+  - Free Pascal (fpc)
+  - FreePascal Toolkit
+  - See settings.json, tasks.json, and launch.json for configuration details.
