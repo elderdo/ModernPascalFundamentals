@@ -27,7 +27,7 @@ This project is for educational and scholarship purposes only.
 ## 🛠️ Environment
 
 - **Compiler:** Free Pascal 3.2.2
-- **IDE/Editor:** Lazarus 3.x / VS Code with FreePascal Toolkit
+- **IDE/Editor:** Lazarus 4.6 / VS Code with FreePascal Toolkit
 - **Platform:** Windows/Linux/macOS
 - **VS Code Extensions:**
   - Pascal Alessandro Fragnani
