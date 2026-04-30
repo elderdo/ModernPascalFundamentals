@@ -1,0 +1,10 @@
+{
+    "omnipascal.freePascalSourcePath": "c:\\lazarus\\fpc\\3.2.2\\source",
+    "omnipascal.defaultDevelopmentEnvironment": "FreePascal",
+    /* Add these for the FreePascal Toolkit extension */
+    "fpctoolkit.env.PP": "c:\\lazarus\\fpc\\3.2.2\\bin\\x86_64-win64\\fpc.exe",
+    "pascal.target": "x86_64-win64",
+    "fpctoolkit.env.LAZBUILD": "c:\\lazarus\\lazbuild.exe",
+    "fpctoolkit.env.LAZARUSDIR": "c:\\lazarus",
+    "editor.formatOnSave": true
+}

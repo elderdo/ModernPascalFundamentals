@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // Build PaintCalculator with Lazbuild using the default build mode (no --build-mode)
+            "label": "Build PaintCalculator (Default)",
+            "type": "shell",
+            "command": "${config:fpctoolkit.env.LAZBUILD}",
+            "args": [
+                "${workspaceFolder}/Ch04_PaintCalculator/PaintCalculator.lpi"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            // Build PaintCalculator with Lazbuild using Debug build mode
+            "label": "Build PaintCalculator (Debug)",
+            "type": "shell",
+            "command": "${config:fpctoolkit.env.LAZBUILD}",
+            "args": [
+                "--build-mode=Debug",
+                "${workspaceFolder}/Ch04_PaintCalculator/PaintCalculator.lpi"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PaintCalculator.lpr summary:
+  This Pascal program calculates the amount of paint required to cover a wall, based on user input for wall length and width.
+  - Defines a constant for paint coverage per gallon (350 sq ft).
+  - Prompts the user for wall dimensions.
+  - Calculates total area and required gallons (integer division).
+  - Outputs the total area and estimated gallons needed.
+  - Prompts user to press Enter to close.
+  Variables: WallLength, WallWidth, TotalArea, GallonsNeeded.
+  Business logic: TotalArea := WallLength * WallWidth; GallonsNeeded := TotalArea div CoveragePerGallon.
+-->
+<CONFIG>
+  <!--
+    CONFIG: Root element for Lazarus project configuration.
+  -->
+  <ProjectOptions>
+    <!--
+      ProjectOptions: Contains general project settings, build modes, units, and publishing options.
+    -->
+    <Version Value="12"/>
+    <General>
+      <!--
+        General: Basic project properties and flags.
+      -->
+      <Flags>
+        <!--
+          Flags: Boolean options for project behavior (form creation, title, scaling).
+        -->
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="PaintCalculator"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <BuildModes>
+      <!--
+        BuildModes: Lists available build configurations (e.g., Debug, Release).
+      -->
+      <Item Name="Debug" Default="True"/>
+      <Item Name="Default"/>
+    </BuildModes>
+    <PublishOptions>
+      <!--
+        PublishOptions: Settings for publishing or distributing the project.
+      -->
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <Units>
+      <!--
+        Units: Lists Pascal source files (units) included in the project.
+      -->
+      <Unit>
+        <!--
+          Unit: Represents a single Pascal source file in the project.
+        -->
+        <Filename Value="PaintCalculator.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <!--
+      CompilerOptions: Settings for the Free Pascal Compiler (FPC) such as output, search paths, and parsing.
+    -->
+    <Version Value="11"/>
+    <Target>
+      <!--
+        Target: Output file name for the compiled program.
+      -->
+      <Filename Value="PaintCalculator"/>
+    </Target>
+    <SearchPaths>
+      <!--
+        SearchPaths: Directories for include files and compiled unit output.
+      -->
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <!--
+        Parsing: Syntax and parsing options for the compiler.
+      -->
+      <SyntaxOptions>
+        <!--
+          SyntaxOptions: Specific syntax rules (e.g., string type usage).
+        -->
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+  </CompilerOptions>
+</CONFIG>
