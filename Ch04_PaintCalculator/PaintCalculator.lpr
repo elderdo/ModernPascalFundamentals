@@ -22,7 +22,7 @@ var
   WallWidth: integer;
   TotalArea: integer;
   GallonsNeeded: integer;
-
+  
 begin
   // Step 3: Initialize variables to safe starting states
   WallLength := 0;
@@ -32,9 +32,9 @@ begin
 
   // Step 4: Gather input from the user
   WriteLn('--- Professional Paint Calculator ---');
-  WriteLn('Please enter the length of the wall in feet:');
+  Write('Please enter the length of the wall in feet: '); { Prompt the user to enter the length of the wall without end of line character. }
   ReadLn(WallLength);
-  WriteLn('Please enter the width of the wall in feet:');
+  Write('Please enter the width of the wall in feet: ');
   ReadLn(WallWidth);
 
   // Step 5: Perform the business logic
@@ -47,5 +47,6 @@ begin
   WriteLn('-------------------------------------');
   WriteLn('Total square footage to paint: ', TotalArea);
   WriteLn('Estimated gallons of paint required: ', GallonsNeeded);
-  WriteLn('Press Enter to close the application.');
+  Write('Press Enter to close the application...');
+  ReadLn; { Wait for user input before closing }
 end.
