@@ -26,8 +26,8 @@
 				"-g", // Generate debug info
 				"-gw2", // Use DWARF v2 debug format (best for GDB)
 				"-O1", // Basic optimization
-				"-FEbin", // Places the final .exe in the 'bin' folder
-				"-FUlib", // Places .ppu and .o files in the 'lib' folder
+				"-FE${workspaceFolder}/bin", // Places the final .exe in the 'bin' folder
+				"-FU${workspaceFolder}/lib", // Places .ppu and .o files in the 'lib' folder
 				"-FuC:\\lazarus\\lcl\\units\\${config:pascal.target}", // Path to Lazarus components
 				"${file}" // Compiles the file currently active in your editor
 			],
