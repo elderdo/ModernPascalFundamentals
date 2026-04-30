@@ -72,14 +72,14 @@
       <!--
         Target: Output file name for the compiled program.
       -->
-      <Filename Value="PaintCalculator"/>
+      <Filename Value="../bin/PaintCalculator"/>
     </Target>
     <SearchPaths>
       <!--
         SearchPaths: Directories for include files and compiled unit output.
       -->
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      <UnitOutputDirectory Value="../lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
       <!--
