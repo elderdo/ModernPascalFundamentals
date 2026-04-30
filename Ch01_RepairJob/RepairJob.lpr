@@ -19,6 +19,6 @@ begin
   
   // Add your code here
   
-  WriteLn('Press Enter to exit...');
-  ReadLn;
+  Write('Press Enter to exit...');
+  ReadLn;;
 end.
